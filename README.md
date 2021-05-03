@@ -1,10 +1,26 @@
-NB: This is a template to make documentation process easy. You can remove the `To-Do` notes in your final commit
+# Analysis of Supermarket Sales Data
 
-# Project Title Here
-
-To-Do - Write a short project description here.
+Company XYZ has 3 major branches across 3 cities. This project is focused on analyzing the sales data of all branches over the course of 3 months in order to understand trends, such as, the category of product that makes more sales. 
+It involved: 
+    * joining the datasets from all branches, 
+    * editing some variables into suitable formats, and 
+    * running some tests to make inferences.
 
 # Project Steps
+
+There are 6 major steps involves in this project:
+
+## Loading datasets
+
+## Data exploration
+
+## Dealing with datetime features
+
+## Generating unique values
+
+## Aggregation by grouping
+
+## Data visualization
 
 To-Do - Explain in detail, the project steps and overview of different tasks completed here.
 
