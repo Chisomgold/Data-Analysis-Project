@@ -2,11 +2,11 @@
 
 Company XYZ has 3 major branches across 3 cities. This project is focused on analyzing the sales data of all branches over the course of 3 months in order to understand trends, such as, the category of product that makes more sales. 
 It involved: 
-    joining the datasets from all branches, 
+* joining the datasets from all branches, 
 
-    editing some variables into suitable formats, and 
+* editing some variables into suitable formats, and 
 
-    running some tests to make inferences.
+* running some tests to make inferences.
 
 # Project Steps
 
@@ -19,11 +19,11 @@ This involved accessing the sales data of all 3 branches of the supermarket and 
 
 ## Data exploration
 Here, dataset was called and read using the [pd.read_csv] command. 
-    The first few rows were observed using the [head] method.
+* The first few rows were observed using the [head] method.
 
-    The shape (number of rows and columns) of the dataset was obtained using [df.shape].
+* The shape (number of rows and columns) of the dataset was obtained using [df.shape].
 
-    Other information like the column titles, data description, presence of missing values, and overall info were explored using the [df.column, df.describe, df.isnull and df.info] commands, respectively.
+* Other information like the column titles, data description, presence of missing values, and overall info were explored using the [df.column, df.describe, df.isnull and df.info] commands, respectively.
 
 ## Dealing with datetime features
 The info command in the previous step revealed that certain columns (date and time) were not in the right format for analysis. This section was dedicated to correcting the datatype (changing to a datetime format) using the df.to_datetime command.
@@ -45,22 +45,22 @@ Here, the dataset was grouped by the city and used to get insights on the gross 
 ## Data visualization
 This section focused on plotting different kinds of charts to establish the relationship between data values based on different factors.
 Charts used in this section includes:
-    countplot
-    boxplot
-    barplot
-    stripplot
-    pointplot
+    countplot,
+    boxplot,
+    barplot,
+    stripplot,
+    pointplot.
 
 # Insights
 
 Result of data analysed shows that out of a total 1000 records for all 3 branches in 3 months, Branch A, located in Lagos, has the highest number of customer visits, although each branch had more than 300 customers. As regards the 6 product lines, food and beverages, and fashion and accessories have a higher purchase rate; both of these product lines are heavily dominated by female customers. 
-    Results also show that female customers spend the most, in terms of product and quantity in this supermarket. 
+* Results also show that female customers spend the most, in terms of product and quantity in this supermarket. 
 
-    Also, branch B located in Abuja, reported the lowest overall customer rating, but based on gender, branch A in Lagos has lower female- customer satisfaction. 
+* Also, branch B located in Abuja, reported the lowest overall customer rating, but based on gender, branch A in Lagos has lower female- customer satisfaction. 
 
-    The overall analysis points to the fact female customers contribute more to the growth of the company.
+* The overall analysis points to the fact female customers contribute more to the growth of the company.
 
-    Branch C in Port Harcourt has the least customer visits, it also has a high rating from female customers, and generated the highest gross income for the company.
+* Branch C in Port Harcourt has the least customer visits, it also has a high rating from female customers, and generated the highest gross income for the company.
 
 # Future Work
 
