@@ -1,6 +1,6 @@
 # Analysis of Supermarket Sales Data
 
-Company XYZ has 3 major branches across 3 cities. This project is focused on analyzing the sales data of all branches over the course of 3 months in order to understand trends, such as, the category of product that makes more sales. 
+Company XYZ has 3 major branches across 3 cities. This project focused on analyzing the sales data of all branches over the course of 3 months in order to understand trends, such as, the category of product that makes more sales. 
 It involved: 
 * joining the datasets from all branches, 
 
@@ -10,10 +10,10 @@ It involved:
 
 # Project Steps
 
-There are 6 major steps involves in this project:
+There are 6 major steps involved in this project:
 
 ## Loading datasets
-All potential libraries for the data analysis were imported at first.
+All potential libraries for the data analysis were imported first.
 
 This involved accessing the sales data of all 3 branches of the supermarket and combining them using the [concat] method, to obtain a wholesome dataset. The combined dataset was exported into a new file which was used for the rest of the process.
 
@@ -53,7 +53,7 @@ Charts used in this section includes:
 
 # Insights
 
-Result of data analysed shows that out of a total 1000 records for all 3 branches in 3 months, Branch A, located in Lagos, has the highest number of customer visits, although each branch had more than 300 customers. As regards the 6 product lines, food and beverages, and fashion and accessories have a higher purchase rate; both of these product lines are heavily dominated by female customers. 
+Result of data analysed shows that out of a total 1000 records for all 3 branches in 3 months, Branch A, located in Lagos, has the highest number of customer visits, although each branch had more than 300 customers. As regards the 6 product lines, food and beverages and fashion and accessories have a higher purchase rate; both of these product lines are heavily dominated by female customers. 
 * Results also show that female customers spend the most, in terms of product and quantity in this supermarket. 
 
 * Also, branch B located in Abuja, reported the lowest overall customer rating, but based on gender, branch A in Lagos has lower female- customer satisfaction. 
